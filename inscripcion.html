@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario Inscripción</title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>Formulario Inscripción</legend><br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="apellido">Apellidos:</label>
+                <input type="text" name="apellido" id="apellido"><br><br>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="text" name="correo" id="correo" placeholder="ejemplo@ejemplo.com"><br><br>
+                <label for="contrasenha">Contraseña:</label>
+                <input type="password" name="contrasenha" id="contrasenha">
+                <label for="repetirContrasenha">Repetir Contraseña:</label>
+                <input type="password" name="repetirContrasenha" id="repetirContrasenha"><br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="funcion">Función:</label>
+                <select name="funcion" id="funcion">
+                    <option value="participante">Participante</option>
+                    <option value="organizador">Organizador</option>
+                    <option value="ponente">Ponente</option>
+                </select>
+                <br>
+                <input type="radio" name="comida" id="siComida">Reserva Comida
+                <input type="radio" name="comida" id="noComida">No Reserva Comida <br><br>
+                <label for="sugerencias">Sugerencias:</label><br>
+                <textarea name="sugerencias" id="sugerencias" maxlength="1200" wrap="soft" placeholder="Escribir aquí" cols="40" rows="8"></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+    <footer>
+
+    </footer>
+</html>
