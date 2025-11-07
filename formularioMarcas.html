@@ -11,11 +11,11 @@
             <fieldset>
                 <legend>Datos Básicos</legend>
                 <label for="nombre">Nombre completo*</label>
-                <input type="text" name="nombre" id="nombre"><br>
+                <input type="text" name="nombre" id="nombre" required><br>
                 <label for="correo">Correo electrónico*</label>
-                <input type="text" name="correo" id="correo"><br>
+                <input type="text" name="correo" id="correo" required><br>
                 <label for="telefono">Teléfono</label>
-                <input type="text" name="telefono" id="telefono"><br>
+                <input type="tel" name="telefono" id="telefono"><br>
                 <label for="nacimiento">Fecha de nacimiento</label>
                 <input type="date" name="nacimiento" id="nacimiento">
             </fieldset>
@@ -30,7 +30,7 @@
                 </select>
                 <br>
                 <label for="documentNumber">Número de documento</label>
-                <input type="number" name="numDocumento" id="numDocumento">
+                <input type="text" name="numDocumento" id="numDocumento">
             </fieldset>
             <input type="submit" value="Guardar Información Personal">
             <input type="reset" value="Limpiar formulario">
@@ -39,20 +39,20 @@
         <form action="">
             <fieldset>
                 <legend>Marcas de Tecnología</legend>
-                <input type="checkbox" name="apple" id="apple">Apple <br>
-                <input type="checkbox" name="samsung" id="samsung">Samsung <br>
-                <input type="checkbox" name="sony" id="sony">Sony <br>
-                <input type="checkbox" name="lg" id="lg">LG <br>
-                <input type="checkbox" name="xiaomi" id="xiaomi">Xiaomi <br>
+                <input type="radio" name="tecnologia" id="apple">Apple <br>
+                <input type="radio" name="tecnologia" id="samsung">Samsung <br>
+                <input type="radio" name="tecnologia" id="sony">Sony <br>
+                <input type="radio" name="tecnologia" id="lg">LG <br>
+                <input type="radio" name="tecnologia" id="xiaomi">Xiaomi <br>
             </fieldset>
             <fieldset>
                 <legend>Marcas de Ropa</legend>
                 <p>¿Qué marca de ropa prefieres?</p>
-                <input type="checkbox" name="nike" id="nike">Nike <br>
-                <input type="checkbox" name="adidas" id="adidas">Adidas <br>
-                <input type="checkbox" name="zara" id="zara">Zara <br>
-                <input type="checkbox" name="hym" id="hym">H&M <br>
-                <input type="checkbox" name="otra" id="otra">Otra <br>
+                <input type="radio" name="ropa" id="nike">Nike <br>
+                <input type="radio" name="ropa" id="adidas">Adidas <br>
+                <input type="radio" name="ropa" id="zara">Zara <br>
+                <input type="radio" name="ropa" id="hym">H&M <br>
+                <input type="radio" name="ropa" id="otra">Otra <br>
             </fieldset>
             <fieldset>
                 <legend>Marcas de Automóviles</legend>
